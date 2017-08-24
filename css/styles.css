@@ -1,0 +1,123 @@
+table {
+border: solid 1px black;
+border-collapse: collapse;
+padding: 3px;
+}
+th, td {
+border: solid 1px black;
+font-size  :12pt;
+padding: 3px;
+}
+#title{font-family: arial;
+}
+thead {
+font-family: arial;
+background-color: #ccddee;
+}
+tfoot {
+background-color: #ddccee;
+font-family: times, serif;
+font-size: .9em;
+font-style: italic;
+}
+td:hover {
+color: white;
+background-color: #722750;
+}
+* {
+  font-family:verdana,sans-serif;
+  font-size  :12pt;
+}
+
+body {
+  width     :800px;
+  height    :700px;
+  margin    :20px auto;
+  background:#f8f8f8;
+  border    :1px solid #888;
+}
+
+html {
+  background:#fff
+}
+
+img {
+  border            :1px solid black;
+  margin-right      :15px;
+  -moz-box-shadow   :2px 2px 2px #888;
+  -webkit-box-shadow:2px 2px 2px #888;
+  box-shadow        :2px 2px 2px #888;
+}
+
+li a, .button {
+  text-decoration:none;
+}
+
+li a:hover, .button:hover {
+  color:green;
+}
+ 
+.appname {
+  text-align :center;
+  background :#eb8;
+  color      :#40d;
+  font-family:helvetica;
+  font-size  :20pt;
+  padding    :4px;
+}
+
+.fieldname {
+  float:left;
+  width:120px;
+}
+
+.main {
+  margin-left:40px;
+}
+
+.info {
+  background :lightgreen;
+  color      :blue;
+	border     :1px solid green;
+	padding    :5px 10px;
+  margin-left:40px;
+}
+
+.menu li, .button {
+  display           :inline;
+  padding           :4px 6px;
+  border            :1px solid #777;
+  background        :rgb(255, 255, 255);
+	color             :rgb(223, 236, 255);
+  margin-right      :8px;
+	border-radius     :5px;
+	-moz-box-shadow   :2px 2px 2px #888;
+	-webkit-box-shadow:2px 2px 2px #888;
+	box-shadow        :2px 2px 2px #888;
+}
+
+.subhead {
+  font-weight:bold;
+}
+
+.taken, .error {
+  color:red;
+}
+
+.available {
+  color:green;
+}
+
+.whisper {
+  font-style:italic;
+  color     :#006600;
+}
+
+#logo {
+  font-family:Georgia;
+  font-weight:bold;
+  font-style:italic;
+  font-size :97px;
+}
+
+	
